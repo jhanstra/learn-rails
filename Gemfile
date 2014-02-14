@@ -23,3 +23,9 @@ group :development do
 	gem 'quiet_assets' 
 	gem 'rails_layout'
 end
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+	gem 'thin'
+end
